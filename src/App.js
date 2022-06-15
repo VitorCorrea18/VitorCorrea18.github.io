@@ -6,8 +6,10 @@ class App extends React.Component {
     return (
       <body className='body_container'>
       <aside className='menu_aside'>
+        <label className='close_menu'>X</label>
         <div className='avatar'>avatar</div>
         <div className='void'>void</div>
+        <div className='introduction'>introduction</div>
         <div className='about'>about</div>
         <div className='projects'>projects</div>
         <div className='contact'>contact</div>
