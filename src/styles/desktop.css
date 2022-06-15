@@ -19,14 +19,14 @@
     grid-template-areas: 
       "avatar"
       "void"
-      "introduction"
+      "intro"
       "about"
       "projects"
-      "contact"; 
+      "contact";
     grid-area: menu_aside; 
     
     background-color: #111111;
-    color: #BEBEBE;
+
   }
 
   .main_page {
@@ -45,24 +45,28 @@
     border-bottom: #1A1A1A 1px solid;
   }
 
-  .introduction {
-    grid-area: introduction;
+  .intro {
+    grid-area: intro;
     border-bottom: #1A1A1A 1px solid;
+    display: flex;
   }
 
   .about {
     grid-area: about;
     border-bottom: #1A1A1A 1px solid;
+    display: flex;
   }
 
   .projects {
     grid-area: projects;
     border-bottom: #1A1A1A 1px solid;
+    display: flex;
   }
 
   .contact {
     grid-area: contact;
     border-bottom: #1A1A1A 1px solid;
+    display: flex;
   }
 
   .close_menu {

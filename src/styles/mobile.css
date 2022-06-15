@@ -22,7 +22,7 @@
     grid-template-areas: 
       "avatar"
       "void"
-      "introduction"
+      "intro"
       "about"
       "projects"
       "contact";
@@ -52,8 +52,8 @@
     border-bottom: #1A1A1A 1px solid;
   }
 
-  .introduction {
-    grid-area: introduction;
+  .intro {
+    grid-area: intro;
     border-bottom: #1A1A1A 1px solid;
   }
 
