@@ -1,0 +1,13 @@
+.nav_label {
+  align-self: center;
+  color: #919191;
+  font-family: 'Fira Code', monospace;
+  font-size: 25px;
+  font-weight: 300;
+  padding-left: 25px;
+}
+
+.nav_label:hover {
+  color: #F8F9FA;
+  cursor: pointer;
+}
