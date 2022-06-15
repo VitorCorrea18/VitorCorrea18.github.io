@@ -1,6 +1,8 @@
-@import "./desktop.css";
+@import './desktop.css';
+@import './mobile.css';
 
 body {
   padding: 0px;
   margin: 0px;
+  background-color: #1A1A1A;
 }

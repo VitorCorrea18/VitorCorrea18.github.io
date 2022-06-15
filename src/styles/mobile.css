@@ -1,3 +1,83 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1024px) {
   
+  .body_container {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 12% 88%;
+    grid-template-areas: "menu_aside main_page";
+    gap: 0px 0px;
+  }
+
+  .menu_aside {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 75vw;
+    max-width: 200px;
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 300px 80px 80px 80px 80px 80px; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "avatar"
+      "void"
+      "introduction"
+      "about"
+      "projects"
+      "contact";
+    grid-area: menu_aside;
+    background-color: #111111;
+    color: #BEBEBE;
+    height: 100vh;
+    transition: all 800ms ease;
+    transform: translate(-101%);
+  }
+
+  .main_page {
+    grid-area: main_page;
+    background-color: #1A1A1A;
+    color: #BEBEBE;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .avatar {
+    grid-area: avatar;
+    background-color: #000000;
+  }
+
+  .void {
+    grid-area: void;
+    border-bottom: #1A1A1A 1px solid;
+  }
+
+  .introduction {
+    grid-area: introduction;
+    border-bottom: #1A1A1A 1px solid;
+  }
+
+  .about {
+    grid-area: about;
+    border-bottom: #1A1A1A 1px solid;
+  }
+  .projects {
+    grid-area: projects;
+    border-bottom: #1A1A1A 1px solid;
+  }
+  .contact {
+    grid-area: contact;
+    border-bottom: #1A1A1A 1px solid;
+  }
+
+  .close_menu {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 4px 8px;
+    background-color: #BEBEBE;
+    color: #000000;
+    border-radius: 3px;
+    z-index: 1;
+  }
 }
