@@ -1,0 +1,18 @@
+.intro_article {
+  padding: 20px 100px;
+  color: #F8F9FA;
+}
+
+.intro_title {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 100px;
+  margin-bottom: 0px;
+}
+
+.intro_paragraph {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  margin-left: 60px;
+}

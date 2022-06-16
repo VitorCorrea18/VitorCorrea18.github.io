@@ -3,7 +3,14 @@ import React from 'react';
 class Intro extends React.Component {
   render () {
     return (
-      <h1>Intro</h1>
+      <article className='intro_article'>
+        <h1 className='intro_title'>
+          Hello World, 👋 <br/>
+          I am Vitor Corrêa, <br/>
+          Web Developer <br/>
+        </h1>
+        <p className='intro_paragraph'>Front End Web Developer / Future Full Stack Web Developer </p>
+      </article>
     );
   }
 }
