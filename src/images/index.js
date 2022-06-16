@@ -14,3 +14,6 @@ export { default as react } from './react.svg';
 export { default as redux } from './redux.svg';
 export { default as sequelize } from './sequelize.svg';
 export { default as typescript } from './typescript.svg';
+export { default as linkedIn } from './linkedin.svg';
+export { default as github } from './github.svg';
+export { default as gmail } from './gmail.svg';

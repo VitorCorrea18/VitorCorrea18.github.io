@@ -5,6 +5,7 @@
 @import './navLabel.css';
 @import './intro.css';
 @import './about.css';
+@import './contact.css';
 
 body {
   background-color: #1A1A1A;

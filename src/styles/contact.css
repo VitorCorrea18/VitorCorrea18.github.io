@@ -1,0 +1,18 @@
+.contact_section {
+  width: fit-content;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact_title {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 80px;
+  margin: 20px 10px 100px 10px;
+}
+
+.social_img {
+  width: 250px;
+  margin: 20px;
+}
