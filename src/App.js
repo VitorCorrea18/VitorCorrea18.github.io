@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavLabel from './components/navLabel';
 import { Intro, About, Projects, Contact } from './pages';
+import { avatar } from './images';
 import './styles/index.css';
 
 class App extends React.Component {
@@ -11,7 +12,11 @@ class App extends React.Component {
         <main className='body_container'>
         <aside className='menu_aside'>
           <label className='close_menu'>X</label>
-          <div className='avatar'>avatar</div>
+          <div className='avatar'>
+            <img className='avatar_img' src={ avatar } alt='My Avatar' />
+            <span className='avatar_name'>Vitor J.V Corrêa</span>
+            <span className='avatar_title'>Web Developer</span>
+          </div>
           <div className='void'></div>
 
           <div className='intro'>
