@@ -4,6 +4,7 @@
 @import './mobile.css';
 @import './navLabel.css';
 @import './intro.css';
+@import './about.css';
 
 body {
   background-color: #1A1A1A;

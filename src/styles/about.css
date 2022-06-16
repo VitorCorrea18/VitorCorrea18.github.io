@@ -1,0 +1,36 @@
+@import './stackImage.css';
+
+.about_article {
+  font-family: 'Fira Sans', sans-serif;
+  color: #edeff1;
+  padding: 20px 100px;
+}
+
+.about_title {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.about_paragraph {
+  font-size: 25px;
+}
+
+.stack_section {
+  display:flex;
+  flex-direction: column;
+  border: #2c2c2c 1px solid;
+  max-width: 900px;
+  padding: 50px;
+}
+
+.current_stack{
+  margin-bottom: 50px;
+}
+
+.stack_title {
+  font-size: 20px;
+}
+
+.stack_div {
+  display:flex;
+}
