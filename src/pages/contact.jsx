@@ -1,5 +1,5 @@
 import React from 'react';
-import { linkedIn, github, gmail } from '../images';
+import { linkedIn, github, gmail } from '../images/icons';
 import SocialImage from '../components/socialImage';
 
 class Contact extends React.Component {

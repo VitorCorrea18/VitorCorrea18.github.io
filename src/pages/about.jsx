@@ -3,7 +3,7 @@ import StackImg from '../components/stackImg';
 import {
   git, linux, html, css, js, react, redux, docker,
   mysql, nodejs, typescript, mongoDb, sequelize, JWT, python, heroku
-} from '../images';
+} from '../images/icons';
 
 class About extends React.Component {
   render () {

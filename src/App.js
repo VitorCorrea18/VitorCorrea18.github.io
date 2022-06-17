@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavLabel from './components/navLabel';
 import { Intro, About, Projects, Contact } from './pages';
-import { avatar } from './images';
+import { avatar } from './images/icons';
 import './styles/index.css';
 
 class App extends React.Component {
