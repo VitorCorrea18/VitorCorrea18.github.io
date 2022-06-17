@@ -1,9 +1,15 @@
 import React from 'react';
+import ProjectCard from '../components/projectCard';
+import { pixelArt } from '../images/projects';
 
 class Projects extends React.Component {
   render () {
     return (
-      <h1>Projects</h1>
+      <main className='projects_page'>
+        <section className='project_section'>
+          <ProjectCard projectImg={ pixelArt } title={'Pixel Art'} />
+        </section>
+      </main>
     );
   }
 }
