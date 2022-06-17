@@ -1,9 +1,9 @@
 @media screen and (min-width: 1024px) {
 
   .body_container {
-    display: grid; 
-    grid-auto-columns: 1fr; 
-    grid-auto-rows: 1fr; 
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
     grid-template-columns: 12% 88%;
     grid-template-areas: "menu_aside main_page";
     gap: 0px 0px;
@@ -13,9 +13,9 @@
 
   .menu_aside {
     display: grid;
-    grid-template-columns: 1fr; 
-    grid-template-rows: 300px 80px 80px 80px 80px 80px; 
-    gap: 0px 0px; 
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 80px 80px 80px 80px 80px;
+    gap: 0px 0px;
     grid-template-areas:
       "avatar"
       "void"
@@ -44,11 +44,11 @@
   }
 
   .avatar_img {
-    width: 180px;
-    margin-top: 15px;
+    width: 150px;
+    margin-top: 35px;
     background-color: gray;
     border: 1px solid black;
-    border-radius: 100px;
+    border-radius: 90px;
   }
 
   .avatar_name {
