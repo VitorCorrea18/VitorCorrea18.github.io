@@ -7,6 +7,7 @@
 @import './about.css';
 @import './contact.css';
 @import './projects.css';
+@import './button.css';
 
 body {
   background-color: #1A1A1A;

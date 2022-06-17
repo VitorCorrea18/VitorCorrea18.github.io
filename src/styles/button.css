@@ -1,0 +1,20 @@
+.btn_link {
+  text-decoration: none;
+}
+
+.button {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: #edeff1;
+  padding: 10px 5px;
+  border: 1px solid #2c589e;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 10px 5px;
+}
+
+.button:hover {
+  background-color: #2c589e;
+  color: #000000;
+}
