@@ -2,12 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Pridi:wght@200;300;400&display=swap');
 @import './desktop.css';
 @import './mobile.css';
-@import './navLabel.css';
 @import './intro.css';
 @import './about.css';
 @import './contact.css';
 @import './projects.css';
-@import './button.css';
 
 body {
   background-color: #1A1A1A;

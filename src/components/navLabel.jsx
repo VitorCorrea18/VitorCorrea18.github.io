@@ -1,6 +1,7 @@
 import React from 'react';
 import propTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import './navLabel.css';
 
 class NavLabel extends React.Component {
   render () {

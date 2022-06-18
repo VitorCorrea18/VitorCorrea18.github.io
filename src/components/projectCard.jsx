@@ -1,6 +1,7 @@
 import React from 'react';
 import propTypes from 'prop-types';
 import Button from '../components/button';
+import './projectCard.css';
 
 class ProjectCard extends React.Component {
   render () {

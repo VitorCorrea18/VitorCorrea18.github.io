@@ -1,5 +1,6 @@
 import React from 'react';
 import propTypes from 'prop-types';
+import './stackImage.css';
 
 class StackImg extends React.Component {
   render () {
