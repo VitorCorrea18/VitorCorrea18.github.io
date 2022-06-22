@@ -1,9 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.f1fb5617.css",
-    "main.js": "/static/js/main.9af8dbfc.js",
+    "main.js": "/static/js/main.710d07d3.js",
     "static/js/787.db04d516.chunk.js": "/static/js/787.db04d516.chunk.js",
+    "static/media/starWarsPlanetSearch.png": "/static/media/starWarsPlanetSearch.0aa8fdf1adbc09cb5b52.png",
+    "static/media/onlineStore.png": "/static/media/onlineStore.67903a3878721096f1a6.png",
+    "static/media/tryunfo.png": "/static/media/tryunfo.135ad20f7c77c0496bb3.png",
+    "static/media/trybeTunes.png": "/static/media/trybeTunes.e590cf110d065c0579f9.png",
+    "static/media/recipeApp.png": "/static/media/recipeApp.5e391f522075429aa438.png",
     "static/media/trybewarts.png": "/static/media/trybewarts.03e81785a6f70e23508b.png",
+    "static/media/trybeWallet.png": "/static/media/trybeWallet.4a212b258cbce998964a.png",
     "static/media/todolist.png": "/static/media/todolist.3e2b98a12c6c737264f7.png",
     "static/media/pixelart.png": "/static/media/pixelart.4f024c685214b6adc54c.png",
     "static/media/node-js.svg": "/static/media/node-js.b6b29e86e448294bb9751985263c4519.svg",
@@ -28,11 +34,11 @@
     "static/media/js.svg": "/static/media/js.0dd1cf6c80bb500c655a617006c1148a.svg",
     "static/media/heroku.svg": "/static/media/heroku.a22f05f959c8736e5f4e20bcf32c3f27.svg",
     "main.f1fb5617.css.map": "/static/css/main.f1fb5617.css.map",
-    "main.9af8dbfc.js.map": "/static/js/main.9af8dbfc.js.map",
+    "main.710d07d3.js.map": "/static/js/main.710d07d3.js.map",
     "787.db04d516.chunk.js.map": "/static/js/787.db04d516.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1fb5617.css",
-    "static/js/main.9af8dbfc.js"
+    "static/js/main.710d07d3.js"
   ]
 }
