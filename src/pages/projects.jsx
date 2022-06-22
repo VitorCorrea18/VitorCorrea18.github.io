@@ -14,7 +14,7 @@ class Projects extends React.Component {
   render () {
     return (
       <main className='projects_page'>
-        <h3>Front End Projects</h3>
+        <h2 className='project_page_title'>Front End Projects</h2>
         <section className='project_section'>
           <ProjectCard
             projectImg={ pixelArt }
@@ -86,7 +86,7 @@ class Projects extends React.Component {
             repoUrl='https://github.com/VitorCorrea18/project-recipes-app'
           />
         </section>
-        <h3>Back End</h3>
+        <h2 className='project_page_title'>Back End</h2>
         <section className='project_section'>
           <ApiCard name={'Talker Manager'} stackUsed={[docker, nodejs, mysql]} url='https://vitorcorrea18.github.io/talker-manager' />
           <ApiCard name={'Store Manager'} stackUsed={[docker, nodejs, mysql]} url='https://vitorcorrea18.github.io/store-manager' />

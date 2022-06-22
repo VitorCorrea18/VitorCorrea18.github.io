@@ -3,3 +3,9 @@
   padding: 10px;
   flex-wrap: wrap;
 }
+
+.project_page_title {
+  font-family: 'Fira Code', monospace;
+  font-size: 30px;
+  margin-left: 100px;
+}
