@@ -2,15 +2,16 @@
   border: solid 1px #919191;
   margin: 15px 15px;
   border-radius: 5px;
-  width: 250px;
-  height: 350px;
+  width: 280px;
+  height: 370px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .project_img {
-  width: 249px;
+  width: 280px;
+  height: 250px;
   border-radius: 5px;
 }
 
@@ -28,9 +29,19 @@
   height: 100px;
 }
 
+.stackUsed_div {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.stack_used {
+  width: 30px;
+}
+
 .btns_div {
   width: 250px;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   display: flex;
   justify-content: space-around;
 }
