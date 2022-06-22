@@ -1,3 +1,9 @@
 export { default as pixelArt } from './pixelart.png';
 export { default as toDoList } from './todolist.png';
 export { default as trybeWarts } from './trybewarts.png';
+export { default as onlineStore } from './onlineStore.png';
+export { default as recipeApp } from './recipeApp.png';
+export { default as starWarsPlanetSearch } from './starWarsPlanetSearch.png';
+export { default as trybeTunes } from './trybeTunes.png';
+export { default as trybeWallet } from './trybeWallet.png';
+export { default as tryunfo } from './tryunfo.png';
