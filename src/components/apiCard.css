@@ -1,0 +1,43 @@
+.api_link {
+  text-decoration: none;
+}
+
+.api_card_div {
+  display: flex;
+  width: 350px;
+  height: 100px;
+  margin: 10px;
+  border: solid 1px #919191;
+  border-radius: 5px;
+  color: #BEBEBE;
+}
+
+.api_img_div {
+  width: 100;
+  margin-right: 20px;
+}
+
+.api_img {
+  width: 100px;
+}
+
+.api_info_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.api_title {
+  margin: 5px auto 15px;
+  font-size: 20px;
+  font-family: 'Fira Code', monospace
+}
+
+.api_stack_div {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.api_stackUsed {
+  width: 35px;
+}
