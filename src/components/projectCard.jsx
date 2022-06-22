@@ -5,7 +5,7 @@ import './projectCard.css';
 
 class ProjectCard extends React.Component {
   render () {
-    const { projectImg, title, stackUsed } = this.props;
+    const { projectImg, title, stackUsed, pageUrl, repoUrl } = this.props;
     return (
         <div className='project_div'>
           <img className='project_img' src={projectImg} alt={`${title} image`} />
@@ -19,8 +19,8 @@ class ProjectCard extends React.Component {
               }
             </div>
             <div className='btns_div'>
-              <Button content={ 'See it Running' } url='http://www.google.com' />
-              <Button content={ 'Github Repo' } />
+              <Button content={ 'See it Running' } url={`http://vitorcorrea18.github.io${pageUrl}`} />
+              <Button content={ 'Github Repo' } url={repoUrl}/>
             </div>
           </div>
         </div>
@@ -32,7 +32,9 @@ ProjectCard.propTypes = {
   projectImg: propTypes.string.isRequired,
   title: propTypes.string.isRequired,
   about: propTypes.string.isRequired,
-  stackUsed: propTypes.instanceOf(Array).isRequired
+  stackUsed: propTypes.instanceOf(Array).isRequired,
+  pageUrl: propTypes.string.isRequired,
+  repoUrl: propTypes.string.isRequired
 };
 
 export default ProjectCard;

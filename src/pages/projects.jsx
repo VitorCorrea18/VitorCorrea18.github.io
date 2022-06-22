@@ -16,15 +16,75 @@ class Projects extends React.Component {
       <main className='projects_page'>
         <h3>Front End Projects</h3>
         <section className='project_section'>
-          <ProjectCard projectImg={ pixelArt } title={'PixelArt'} stackUsed={[html, css, js]} />
-          <ProjectCard projectImg={ toDoList } title={'ToDoList'} stackUsed={[html, css, js]} />
-          <ProjectCard projectImg={ trybeWarts } title={'TrybeWarts'} stackUsed={[html, css, js]} />
-          <ProjectCard projectImg={ tryunfo } title={'Tryunfo'} stackUsed={[react]} />
-          <ProjectCard projectImg={ onlineStore } title={'OnlineStore'} stackUsed={[react]} />
-          <ProjectCard projectImg={ trybeTunes } title={'TrybeTunes'} stackUsed={[react]} />
-          <ProjectCard projectImg={ trybeWallet } title={'TrybeWallet'} stackUsed={[react, redux]} />
-          <ProjectCard projectImg={ starWarsPlanetSearch } title={'StarWars Planet Search'} stackUsed={[react]} />
-          <ProjectCard projectImg={ recipeApp } title={'Recipe App'} stackUsed={[react, responsive]} />
+          <ProjectCard
+            projectImg={ pixelArt }
+            title={'PixelArt'}
+            stackUsed={[html, css, js]}
+            pageUrl='/pixelart'
+            repoUrl='https://github.com/VitorCorrea18/pixel-art'
+          />
+
+          <ProjectCard
+            projectImg={ toDoList }
+            title={'ToDoList'}
+            stackUsed={[html, css, js]}
+            pageUrl='/todolist'
+            repoUrl='https://github.com/VitorCorrea18/project-todo-list'
+          />
+
+          <ProjectCard
+            projectImg={ trybeWarts }
+            title={'TrybeWarts'}
+            stackUsed={[html, css, js]}
+            pageUrl='/trybewarts'
+            repoUrl='https://github.com/VitorCorrea18/project-trybewarts'
+          />
+
+          <ProjectCard
+            projectImg={ tryunfo }
+            title={'Tryunfo'}
+            stackUsed={[react]}
+            pageUrl='/tryunfo'
+            repoUrl='https://github.com/VitorCorrea18/project-tryunfo'
+          />
+
+          <ProjectCard
+            projectImg={ onlineStore }
+            title={'OnlineStore'}
+            stackUsed={[react]}
+            pageUrl='/online-store'
+            repoUrl='https://github.com/VitorCorrea18/project-online-store'
+          />
+
+          <ProjectCard
+            projectImg={ trybeTunes }
+            title={'TrybeTunes'}
+            stackUsed={[react]}
+            pageUrl='/trybetunes'
+            repoUrl='https://github.com/VitorCorrea18/project-trybetunes'
+          />
+
+          <ProjectCard
+            projectImg={ trybeWallet }
+            title={'TrybeWallet'}
+            stackUsed={[react, redux]}
+            pageUrl='/trybewallet'
+            repoUrl='https://github.com/VitorCorrea18/project-trybewallet'
+          />
+          <ProjectCard
+            projectImg={ starWarsPlanetSearch }
+            title={'StarWars Planet Search'}
+            stackUsed={[react]}
+            pageUrl='/starwars-planet-search'
+            repoUrl='https://github.com/VitorCorrea18/project-starwars-planets-search'
+          />
+          <ProjectCard
+            projectImg={ recipeApp }
+            title={'Recipe App'}
+            stackUsed={[react, responsive]}
+            pageUrl='/recipe-app'
+            repoUrl='https://github.com/VitorCorrea18/project-recipes-app'
+          />
         </section>
         <h3>Back End</h3>
         <section className='project_section'>
