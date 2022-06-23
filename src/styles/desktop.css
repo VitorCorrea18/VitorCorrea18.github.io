@@ -28,8 +28,9 @@
       "projects"
       "contact";
     grid-area: menu_aside;
-    
     background-color: #111111;
+    height: 100%;
+    position: fixed;
   }
 
   .main_page {
@@ -56,7 +57,7 @@
   }
 
   .avatar_name {
-    margin-top: 15px;
+    margin: 15px 10px 0px;
     font-family: 'Fira Sans', sans-serif;
     font-size: 25px;
   }
