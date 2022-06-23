@@ -14,3 +14,22 @@
   font-family: 'Fira Code', monospace;
   color: #919191;
 }
+
+@media screen and (max-width: 600px) {
+  .img_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 10px;
+  }
+  
+  .stack_img {
+    width: 30px;
+    margin: 5px;
+  }
+  
+  .img_name {
+    font-family: 'Fira Code', monospace;
+    color: #919191;
+  }
+}

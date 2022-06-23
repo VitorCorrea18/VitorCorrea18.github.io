@@ -31,7 +31,7 @@ class About extends React.Component {
             <StackImg name='Docker' image={ docker } />
           </div>
           <h3 className='stack_title'>{ "Stack I'm currently studying" }</h3>
-          <div className='stack_div'>
+          <div className='stack_div future_stack'>
             <StackImg name='Nodejs' image={ nodejs } />
             <StackImg name='Mysql' image={ mysql } />
             <StackImg name='Sequelize' image={ sequelize } />
