@@ -41,3 +41,39 @@
 .api_stackUsed {
   width: 35px;
 }
+
+@media screen and (max-width: 800px) {
+  .api_card_div {
+    width: 325px;
+    margin: 4px 0px;
+    align-items: center;
+  }
+  
+  .api_img_div {
+    width: 90px;
+    margin: 0px 10px;
+  }
+  
+  .api_img {
+    width: 80px;
+  }
+  
+  .api_info_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .api_title {
+    margin: 5px 0px 18px;
+    font-size: 14px;
+  }
+  
+  .api_stack_div {
+    width: 180px;
+  }
+  
+  .api_stackUsed {
+    width: 30px;
+  }
+}

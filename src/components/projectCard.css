@@ -6,6 +6,7 @@
   height: 380px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -46,3 +47,37 @@
   justify-content: space-around;
 }
 
+@media screen and (max-width: 800px) {
+  .project_div {
+    margin: 15px 5px;
+    width: 160px;
+    height: 245px;
+    align-items: center;
+  }
+  
+  .project_img {
+    width: 160px;
+    height: 150px;
+  }
+  
+  .project_title {
+    margin: 5px 0px 8px;
+    font-size: 14px;
+  }
+  
+  .project_info_div {
+    height: 80px;
+  }
+  
+  .stack_used {
+    width: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .btns_div {
+    width: 160px;
+    margin-top: 0px;
+    justify-content: space-around;
+    font-size: 5px;
+  }
+}

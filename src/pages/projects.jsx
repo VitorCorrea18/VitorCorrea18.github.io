@@ -73,7 +73,7 @@ class Projects extends React.Component {
           />
           <ProjectCard
             projectImg={ starWarsPlanetSearch }
-            title={'StarWars Planet Search'}
+            title={'StarWars P. Search'}
             stackUsed={[react]}
             pageUrl='/starwars-planet-search'
             repoUrl='https://github.com/VitorCorrea18/project-starwars-planets-search'

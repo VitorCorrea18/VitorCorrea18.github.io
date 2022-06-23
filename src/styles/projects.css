@@ -9,3 +9,22 @@
   font-size: 30px;
   margin-left: 100px;
 }
+
+@media screen and (max-width: 800px) {
+  .projects_page {
+    position:relative;
+    padding: 0px;
+    margin-left: -30px;
+    height: 1100px;
+  }
+
+  .project_section {
+    padding: 0px;
+    width: 370px;
+  }
+  
+  .project_page_title {
+    font-size: 20px;
+    margin: 60px 0px 10px;
+  }
+}
