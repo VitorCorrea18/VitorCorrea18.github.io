@@ -6,7 +6,7 @@ class Intro extends React.Component {
       <article className='intro_article'>
         <h1 className='intro_title'>
           Hello World, 👋 <br/>
-          I am Vitor Corrêa, <br/>
+          { "I'm Vitor Corrêa,"} <br/>
           Web Developer <br/>
         </h1>
         <p className='intro_paragraph'>Front End Web Developer / Future Full Stack Web Developer </p>
