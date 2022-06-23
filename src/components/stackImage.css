@@ -31,5 +31,6 @@
   .img_name {
     font-family: 'Fira Code', monospace;
     color: #919191;
+    font-size: 12px;
   }
 }
