@@ -16,3 +16,27 @@
   width: 250px;
   margin: 20px;
 }
+
+@media screen and (max-width: 800px) {
+  .contact_section {
+    width: fit-content;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact_title {
+    align-self: center;
+    font-size: 40px;
+    margin: 150px 0px 100px;
+  }
+
+  .social_div {
+    justify-self: center;
+  }
+  
+  .social_img {
+    width: 50px;
+    margin: 20px;
+  }
+}
