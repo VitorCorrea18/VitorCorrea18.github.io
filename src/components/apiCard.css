@@ -14,11 +14,12 @@
 
 .api_img_div {
   width: 100;
-  margin-right: 20px;
+  margin: 0px 10px;
+  display: flex;
 }
 
 .api_img {
-  width: 100px;
+  width: 85px;
 }
 
 .api_info_div {
