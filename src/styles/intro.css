@@ -16,3 +16,27 @@
   font-size: 20px;
   margin-left: 60px;
 }
+
+@media screen and (max-width: 600px) {
+  .intro_article {
+    margin: 100px 0px;
+    height: 700px;
+    width: 300px;
+    padding: 1px;
+    color: #edeff1;
+  }
+  
+  .intro_title {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 0px;
+  }
+  
+  .intro_paragraph {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    margin-left: 80px;
+  }
+}

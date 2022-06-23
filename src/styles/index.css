@@ -12,3 +12,11 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
+#open_menu {
+  width: 1px;
+  height: 1px;
+  display: inline;
+  pointer-events: none;
+  opacity: 0;
+}
