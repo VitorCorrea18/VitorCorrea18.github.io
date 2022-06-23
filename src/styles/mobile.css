@@ -9,8 +9,9 @@
     gap: 0px 0px;
   }
 
+  /* mobile menu config */
   .menu_aside {
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     width: 75vw;
@@ -30,44 +31,16 @@
     background-color: #111111;
     color: #BEBEBE;
     height: 100vh;
+    z-index: 1;
     transition: all 800ms ease;
-    transform: translate(-101%);
+    transform: translate(-150%);
   }
 
-  .main_page {
-    grid-area: main_page;
-    background-color: #1A1A1A;
-    color: #BEBEBE;
-    width: 100vw;
-    height: 100vh;
-  }
-
-  .avatar {
-    grid-area: avatar;
-    background-color: #000000;
-  }
-
-  .void {
-    grid-area: void;
-    border-bottom: #1A1A1A 1px solid;
-  }
-
-  .intro {
-    grid-area: intro;
-    border-bottom: #1A1A1A 1px solid;
-  }
-
-  .about {
-    grid-area: about;
-    border-bottom: #1A1A1A 1px solid;
-  }
-  .projects {
-    grid-area: projects;
-    border-bottom: #1A1A1A 1px solid;
-  }
-  .contact {
-    grid-area: contact;
-    border-bottom: #1A1A1A 1px solid;
+  .menu_mobile_img {
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
   }
 
   .close_menu {
@@ -80,4 +53,79 @@
     border-radius: 3px;
     z-index: 1;
   }
+
+  #open_menu:checked ~ .menu_aside {
+    transform: translate(0%);
+  }
+
+  #open_menu:checked ~ .menu_mobile_label {
+    opacity: 0;
+  }
+
+  /* END mobile menu config */
+
+  .main_page {
+    grid-area: main_page;
+    background-color: #1A1A1A;
+    color: #BEBEBE;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .avatar {
+    grid-area: avatar;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .avatar_img {
+    width: 170px;
+    align-self: center;
+    margin: 15px 0px;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 90px;
+  }
+
+  .avatar_name {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 23px;
+    align-self: center;
+  }
+
+  .avatar_title {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    align-self: center;
+  }
+
+
+  .void {
+    grid-area: void;
+    border-bottom: #1A1A1A 1px solid;
+  }
+
+  .intro {
+    grid-area: intro;
+    border-bottom: #1A1A1A 1px solid;
+    display: flex;
+  }
+
+  .about {
+    grid-area: about;
+    border-bottom: #1A1A1A 1px solid;
+    display: flex;
+  }
+  .projects {
+    grid-area: projects;
+    border-bottom: #1A1A1A 1px solid;
+    display: flex;
+  }
+  .contact {
+    grid-area: contact;
+    border-bottom: #1A1A1A 1px solid;
+    display: flex;
+  }
+
 }
