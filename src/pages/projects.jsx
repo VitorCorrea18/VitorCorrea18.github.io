@@ -3,7 +3,7 @@ import ProjectCard from '../components/projectCard';
 import ApiCard from '../components/apiCard';
 import {
   pixelArt, toDoList, trybeWarts, onlineStore, recipeApp,
-  starWarsPlanetSearch, trybeTunes, trybeWallet, tryunfo
+  starWarsPlanetSearch, trybeTunes, trybeWallet, tryunfo, trivia
 } from '../images/projects';
 import {
   html, css, js, react, redux, responsive, docker, mysql,
@@ -79,6 +79,13 @@ class Projects extends React.Component {
             repoUrl='https://github.com/VitorCorrea18/project-starwars-planets-search'
           />
           <ProjectCard
+            projectImg={ trivia }
+            title={'Trivia'}
+            stackUsed={[react, redux, responsive]}
+            pageUrl='/trivia'
+            repoUrl='https://github.com/VitorCorrea18/project-trivia'
+          />
+          <ProjectCard
             projectImg={ recipeApp }
             title={'Recipe App'}
             stackUsed={[react, responsive]}
@@ -86,7 +93,7 @@ class Projects extends React.Component {
             repoUrl='https://github.com/VitorCorrea18/project-recipes-app'
           />
         </section>
-        <h2 className='project_page_title'>Back End</h2>
+        <h2 className='project_page_title'>Back End Projects</h2>
         <section className='project_section'>
           <ApiCard name={'Talker Manager'} stackUsed={[docker, nodejs, mysql]} url='https://vitorcorrea18.github.io/talker-manager' />
           <ApiCard name={'Store Manager'} stackUsed={[docker, nodejs, mysql]} url='https://vitorcorrea18.github.io/store-manager' />
