@@ -1,4 +1,7 @@
 import React from 'react';
+import DownloadBtn from '../components/downloadBtn';
+import frontEndCv from '../documents/frontEndCv.pdf';
+import backEndCv from '../documents/backEndCv.pdf';
 
 class Intro extends React.Component {
   render () {
@@ -10,6 +13,10 @@ class Intro extends React.Component {
           Web Developer <br/>
         </h1>
         <p className='intro_paragraph'>Front End Web Developer / Future Full Stack Web Developer </p>
+        <div className='download_div'>
+        <DownloadBtn name={'Front End CV'} file={frontEndCv} />
+        <DownloadBtn name={'Back End CV'} file={backEndCv} />
+        </div>
       </article>
     );
   }
