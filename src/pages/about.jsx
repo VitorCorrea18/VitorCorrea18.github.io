@@ -16,7 +16,7 @@ class About extends React.Component {
           { "a jouney that would lead me to finally work with what i'm passionate about." } <br/>
         </p>
         <p className='about_paragraph'>
-          { "I started my studies almost an year ago and i want to show you what i've learned so far." }
+          { "I started my studies almost a year ago and i want to show you what i've learned so far." }
         </p>
         <section className='stack_section'>
           <h3 className='stack_title'>My Current Development Stack</h3>
