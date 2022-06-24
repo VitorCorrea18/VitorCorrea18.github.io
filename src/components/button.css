@@ -8,15 +8,15 @@
   text-decoration: none;
   color: #edeff1;
   padding: 10px 5px;
-  border: 1px solid #2c589e;
+  border: 1px solid #00509D;
   border-radius: 5px;
   width: fit-content;
   padding: 10px 5px;
 }
 
 .button:hover {
-  background-color: #2c589e;
-  color: #000000;
+  background-color: #00509D;
+  /* color: #000000; */
 }
 
 @media screen and (max-width: 800px) {
