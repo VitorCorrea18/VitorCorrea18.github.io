@@ -1,0 +1,31 @@
+.download_link {
+  width: fit-content;
+  background-color: #757a7e;
+  height: fit-content;
+  display: block;
+  text-decoration: none;
+}
+
+.download_btn {
+  width: 230px;
+  height: 60px;
+  border: 1px #00509D solid;
+  background-color: #1A1A1A;
+  display: flex;
+  align-items: center;
+  color: #757a7e;
+  font-size: 20px;
+  padding: 0px;
+  margin: 10px 0;
+}
+
+.download_img {
+  width: 40px;
+  margin: 0 10px 0 10px;
+  padding: 5px;
+}
+
+.download_btn:hover {
+  background-color: #00509D;
+  color: #edeff1;
+}

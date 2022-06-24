@@ -21,3 +21,4 @@ export { default as avatar } from './avatar.svg';
 export { default as responsive } from './responsive.svg';
 export { default as api } from './api.svg';
 export { default as menuMobile } from './menuMobile.svg';
+export { default as download } from './download.svg';
