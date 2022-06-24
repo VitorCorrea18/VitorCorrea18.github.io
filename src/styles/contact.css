@@ -13,8 +13,8 @@
 }
 
 .social_img {
-  width: 250px;
-  margin: 20px;
+  width: 150px;
+  margin: 0px 20px 80px;
 }
 
 @media screen and (max-width: 800px) {
