@@ -7,3 +7,4 @@ export { default as starWarsPlanetSearch } from './starWarsPlanetSearch.png';
 export { default as trybeTunes } from './trybeTunes.png';
 export { default as trybeWallet } from './trybeWallet.png';
 export { default as tryunfo } from './tryunfo.png';
+export { default as trivia } from './trivia.png';
