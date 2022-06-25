@@ -95,11 +95,11 @@ class Projects extends React.Component {
         </section>
         <h2 className='project_page_title'>Back End Projects</h2>
         <section className='project_section'>
-          <ApiCard name={'Talker Manager'} stackUsed={[docker, nodejs, mysql]} url='https://vitorcorrea18.github.io/talker-manager' />
-          <ApiCard name={'Store Manager'} stackUsed={[docker, nodejs, mysql]} url='https://vitorcorrea18.github.io/store-manager' />
-          <ApiCard name={'Blogs Api'} stackUsed={[docker, nodejs, mysql, sequelize, JWT]} url='https://vitorcorrea18.github.io/blogs-api' />
+          <ApiCard name={'Talker Manager'} stackUsed={[docker, nodejs, mysql]} url='https://github.com/VitorCorrea18/TalkerManager-API' />
+          <ApiCard name={'Store Manager'} stackUsed={[docker, nodejs, mysql]} url='https://github.com/VitorCorrea18/store-manager-API' />
+          <ApiCard name={'Blogs Api'} stackUsed={[docker, nodejs, mysql, sequelize, JWT]} url='https://github.com/VitorCorrea18/BlogPosts-API' />
           <ApiCard name={'Stranger Things'} stackUsed={[docker, nodejs, mysql, heroku]} url='https://vitorcorrea18-pd.herokuapp.com/' />
-          <ApiCard name={'TrybeSmith'} stackUsed={[docker, typescript, nodejs, mysql, JWT]} url='https://vitorcorrea18.github.io/trybesmith' />
+          <ApiCard name={'TrybeSmith'} stackUsed={[docker, typescript, nodejs, mysql, JWT]} url='https://github.com/VitorCorrea18/trybesmith-API' />
         </section>
       </main>
     );
