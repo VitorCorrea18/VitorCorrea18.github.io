@@ -23,6 +23,7 @@
 
 .current_stack{
   margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 .stack_title {

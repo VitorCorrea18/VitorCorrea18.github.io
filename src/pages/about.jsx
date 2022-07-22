@@ -29,15 +29,15 @@ class About extends React.Component {
             <StackImg name='React' image={ react } />
             <StackImg name='Redux' image={ redux } />
             <StackImg name='Docker' image={ docker } />
-          </div>
-          <h3 className='stack_title'>{ "Stack I'm currently studying" }</h3>
-          <div className='stack_div future_stack'>
             <StackImg name='Nodejs' image={ nodejs } />
             <StackImg name='Mysql' image={ mysql } />
             <StackImg name='Sequelize' image={ sequelize } />
             <StackImg name='JWT' image={ JWT } />
-            <StackImg name='Heroku' image={ heroku } />
             <StackImg name='Typescript' image={ typescript } />
+          </div>
+          <h3 className='stack_title'>{ "Stack I'm currently studying" }</h3>
+          <div className='stack_div future_stack'>
+            <StackImg name='Heroku' image={ heroku } />
             <StackImg name='MongoDb' image={ mongoDb } />
             <StackImg name='Python' image={ python } />
           </div>

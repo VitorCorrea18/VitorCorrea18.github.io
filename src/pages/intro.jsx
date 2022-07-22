@@ -12,7 +12,7 @@ class Intro extends React.Component {
           { "I'm Vitor Corrêa,"} <br/>
           Web Developer <br/>
         </h1>
-        <p className='intro_paragraph'>Front End Web Developer / Future Full Stack Web Developer </p>
+        <p className='intro_paragraph'>Full Stack Web Developer </p>
         <div className='download_div'>
         <DownloadBtn name={'Front End CV'} file={frontEndCv} />
         <DownloadBtn name={'Back End CV'} file={backEndCv} />
