@@ -1,7 +1,7 @@
 import React from 'react';
 import DownloadBtn from '../components/downloadBtn';
-import frontEndCv from '../documents/frontEndCv.pdf';
-import backEndCv from '../documents/backEndCv.pdf';
+import frontEndCv from '../documents/CV-FrontEnd.pdf';
+import backEndCv from '../documents/CV-BackEnd.pdf';
 
 class Intro extends React.Component {
   render () {
