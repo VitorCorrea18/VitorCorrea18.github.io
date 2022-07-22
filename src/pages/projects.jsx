@@ -89,8 +89,8 @@ class Projects extends React.Component {
             projectImg={ recipeApp }
             title={'Recipe App'}
             stackUsed={[react, responsive]}
-            pageUrl='/recipe-app'
-            repoUrl='https://github.com/VitorCorrea18/project-recipes-app'
+            pageUrl='/food-station'
+            repoUrl='https://github.com/VitorCorrea18/food-station'
           />
         </section>
         <h2 className='project_page_title'>Back End Projects</h2>
