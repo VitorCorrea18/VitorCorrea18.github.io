@@ -87,7 +87,7 @@ class Projects extends React.Component {
           />
           <ProjectCard
             projectImg={ recipeApp }
-            title={'Recipe App'}
+            title={'Food Station'}
             stackUsed={[react, responsive]}
             pageUrl='/food-station'
             repoUrl='https://github.com/VitorCorrea18/food-station'
