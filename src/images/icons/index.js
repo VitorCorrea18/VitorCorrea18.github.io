@@ -22,3 +22,5 @@ export { default as responsive } from './responsive.svg';
 export { default as api } from './api.svg';
 export { default as menuMobile } from './menuMobile.svg';
 export { default as download } from './download.svg';
+export { default as jest } from './jest.svg';
+export { default as mocha } from './mocha.svg';
