@@ -7,7 +7,7 @@ import {
 } from '../images/projects';
 import {
   html, css, js, react, redux, responsive, docker, mysql,
-  nodejs, sequelize, JWT, heroku, typescript
+  nodejs, sequelize, JWT, heroku, typescript, jest, mocha
 } from '../images/icons';
 
 class Projects extends React.Component {
@@ -100,6 +100,8 @@ class Projects extends React.Component {
           <ApiCard name={'Blogs Api'} stackUsed={[docker, nodejs, mysql, sequelize, JWT]} url='https://github.com/VitorCorrea18/BlogPosts-API' />
           <ApiCard name={'Stranger Things'} stackUsed={[docker, nodejs, mysql, heroku]} url='https://vitorcorrea18-pd.herokuapp.com/' />
           <ApiCard name={'TrybeSmith'} stackUsed={[docker, typescript, nodejs, mysql, JWT]} url='https://github.com/VitorCorrea18/trybesmith-API' />
+          <ApiCard name={ "Tryber's and Dragons" } stackUsed={[docker, typescript, nodejs]} url='https://github.com/VitorCorrea18/Trybers-N-Dragons' />
+          <ApiCard name={ 'Trybe Futebol Clube' } stackUsed={[docker, typescript, nodejs, mysql, JWT, sequelize, jest, mocha]} url='https://github.com/VitorCorrea18/Trybe-futebol-clube' />
         </section>
       </main>
     );
