@@ -19,7 +19,7 @@
 }
 
 .api_img {
-  width: 85px;
+  width: 80px;
 }
 
 .api_info_div {
@@ -40,7 +40,7 @@
 }
 
 .api_stackUsed {
-  width: 35px;
+  width: 25px;
 }
 
 @media screen and (max-width: 800px) {
