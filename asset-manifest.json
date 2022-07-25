@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.65ce6e75.css",
-    "main.js": "/static/js/main.17b2a361.js",
+    "main.js": "/static/js/main.832d006e.js",
     "static/js/787.db04d516.chunk.js": "/static/js/787.db04d516.chunk.js",
     "static/media/starWarsPlanetSearch.png": "/static/media/starWarsPlanetSearch.0aa8fdf1adbc09cb5b52.png",
     "static/media/onlineStore.png": "/static/media/onlineStore.67903a3878721096f1a6.png",
@@ -43,11 +43,11 @@
     "static/media/js.svg": "/static/media/js.0dd1cf6c80bb500c655a617006c1148a.svg",
     "static/media/heroku.svg": "/static/media/heroku.a22f05f959c8736e5f4e20bcf32c3f27.svg",
     "main.65ce6e75.css.map": "/static/css/main.65ce6e75.css.map",
-    "main.17b2a361.js.map": "/static/js/main.17b2a361.js.map",
+    "main.832d006e.js.map": "/static/js/main.832d006e.js.map",
     "787.db04d516.chunk.js.map": "/static/js/787.db04d516.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65ce6e75.css",
-    "static/js/main.17b2a361.js"
+    "static/js/main.832d006e.js"
   ]
 }
