@@ -7,7 +7,7 @@ class ApiCard extends React.Component {
   render () {
     const { name, stackUsed, url } = this.props;
     return (
-      <a className='api_link' href={url} >
+      <a className='api_link' href={url} target="_blank" rel="noreferrer" >
         <div className='api_card_div'>
           <div className='api_img_div'>
             <img className='api_img' src={api} alt='api image' />
