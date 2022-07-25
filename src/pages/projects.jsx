@@ -20,7 +20,7 @@ class Projects extends React.Component {
             projectImg={ pixelArt }
             title={'PixelArt'}
             stackUsed={[html, css, js]}
-            pageUrl='/pixelart'
+            pageUrl='/pixel-art'
             repoUrl='https://github.com/VitorCorrea18/pixel-art'
           />
 
@@ -28,7 +28,7 @@ class Projects extends React.Component {
             projectImg={ toDoList }
             title={'ToDoList'}
             stackUsed={[html, css, js]}
-            pageUrl='/todolist'
+            pageUrl='/todo-list'
             repoUrl='https://github.com/VitorCorrea18/project-todo-list'
           />
 
@@ -44,7 +44,7 @@ class Projects extends React.Component {
             projectImg={ tryunfo }
             title={'Tryunfo'}
             stackUsed={[react]}
-            pageUrl='/tryunfo'
+            pageUrl='/tryunfo-deploy'
             repoUrl='https://github.com/VitorCorrea18/project-tryunfo'
           />
 
@@ -52,7 +52,7 @@ class Projects extends React.Component {
             projectImg={ onlineStore }
             title={'OnlineStore'}
             stackUsed={[react]}
-            pageUrl='/online-store'
+            pageUrl='/online-store-deploy'
             repoUrl='https://github.com/VitorCorrea18/project-online-store'
           />
 
@@ -60,7 +60,7 @@ class Projects extends React.Component {
             projectImg={ trybeTunes }
             title={'TrybeTunes'}
             stackUsed={[react]}
-            pageUrl='/trybetunes'
+            pageUrl='/TrybeTunes-deploy'
             repoUrl='https://github.com/VitorCorrea18/project-trybetunes'
           />
 
@@ -68,28 +68,28 @@ class Projects extends React.Component {
             projectImg={ trybeWallet }
             title={'TrybeWallet'}
             stackUsed={[react, redux]}
-            pageUrl='/trybewallet'
+            pageUrl='/TrybeWallet-deploy'
             repoUrl='https://github.com/VitorCorrea18/project-trybewallet'
           />
           <ProjectCard
             projectImg={ starWarsPlanetSearch }
             title={'StarWars P. Search'}
             stackUsed={[react]}
-            pageUrl='/starwars-planet-search'
+            pageUrl='/Starwars-planets-Deploy'
             repoUrl='https://github.com/VitorCorrea18/project-starwars-planets-search'
           />
           <ProjectCard
             projectImg={ trivia }
             title={'Trivia'}
             stackUsed={[react, redux, responsive]}
-            pageUrl='/trivia'
+            pageUrl='/Trivia-Deploy'
             repoUrl='https://github.com/VitorCorrea18/project-trivia'
           />
           <ProjectCard
             projectImg={ recipeApp }
             title={'Food Station'}
             stackUsed={[react, responsive]}
-            pageUrl='/food-station'
+            pageUrl='/food-station-deploy'
             repoUrl='https://github.com/VitorCorrea18/food-station'
           />
         </section>
